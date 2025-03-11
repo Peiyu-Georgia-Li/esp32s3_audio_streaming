@@ -1,0 +1,31 @@
+idf_component_register(
+    SRCS 
+        "main.cpp"
+        "board/esp32s3_board.cpp"
+        "audio/i2s_codec.cpp"
+        "audio/audio_processor.cpp"
+        "network/wifi_manager.cpp"
+        "network/udp_server.cpp"
+    INCLUDE_DIRS
+        "."
+        "board"
+        "audio"
+        "network"
+    REQUIRES
+        esp_system
+        driver
+        esp_timer
+        spi_flash
+        esp_wifi
+        esp_common
+        esp_event
+        log
+        app_update
+        esp_partition
+        esp_hw_support
+        freertos
+        nvs_flash
+        json
+        lwip
+        esp_netif
+)
