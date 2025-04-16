@@ -1,0 +1,48 @@
+{
+    "configurations": [
+        {
+            "name": "frame-codebase",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "includePath": [
+                "libraries/cmsis/CMSIS/Core/Include",
+                "libraries/littlefs",
+                "libraries/lua",
+                "libraries/lz4",
+                "libraries/nrf5sdk/**",
+                "libraries/nrfx",
+                "libraries/nrfx/drivers/include",
+                "libraries/nrfx/hal",
+                "libraries/nrfx/mdk",
+                "libraries/nrfx/soc",
+                "libraries/picolibc",
+                "libraries/segger",
+                "libraries/softdevice/include",
+                "libraries/softdevice/include/nrf52",
+                "source",
+                "source/application",
+                "source/application/lua_libraries",
+                "source/application/lua_libraries/graphical_assets",
+                "source/bootloader",
+                "source/fpga",
+                "source/radio_test",
+            ],
+            "defines": [
+                "BLE_STACK_SUPPORT_REQD",
+                "BOARD_PCA10056",
+                "BUILD_VERSION=\"vYY.DDD.HHMM\"",
+                "GIT_COMMIT=\"abcdefg\"",
+                "LFS_NO_DEBUG",
+                "LFS_NO_ERROR",
+                "LFS_NO_WARN",
+                "NDEBUG",
+                "NRF_DFU_SETTINGS_VERSION=2",
+                "NRF52840_XXAA",
+                "SOFTDEVICE_PRESENT",
+                "TEST_FREQUENCY=80",
+                "TEST_POWER=8",
+            ]
+        }
+    ],
+    "version": 4
+}

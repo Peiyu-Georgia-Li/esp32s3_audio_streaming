@@ -1,0 +1,34 @@
+# Build output
+/frame
+/frame_tcr*
+.ng_run_manager.ini
+.setting.ini
+promote.xml
+reportview.xml
+
+# Generated files
+/pll_ip/*
+!/pll_ip/*.xml
+!/pll_ip/*.cfg
+!/pll_ip/*.ipx
+!/pll_ip/Makefile
+
+/byte_to_pixel_ip/*
+!/byte_to_pixel_ip/*.xml
+!/byte_to_pixel_ip/*.cfg
+!/byte_to_pixel_ip/*.ipx
+
+/csi2_receiver_ip/*
+!/csi2_receiver_ip/*.xml
+!/csi2_receiver_ip/*.cfg
+!/csi2_receiver_ip/*.ipx
+
+# Logs and reports
+radiantc.*
+*.log
+*.html
+transcript
+
+# Temporary and backup files
+.recovery
+*.bak

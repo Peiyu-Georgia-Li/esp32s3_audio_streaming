@@ -1,0 +1,24 @@
+# Ignore build files
+build/
+
+# Ignore simulation files
+simulation/
+abc.history
+
+# Ignore VSCode user settings
+.vscode/settings.json
+
+# Ignore draw.io backup files
+*.png.bkp
+*.dtmp
+
+# Temp test files
+test_scratch_pad*.py
+
+# Temp focusing image and production logs
+production/focus_image.*
+production/log.txt
+production/frame-firmware-*.hex
+
+# Python virtual env
+.venv

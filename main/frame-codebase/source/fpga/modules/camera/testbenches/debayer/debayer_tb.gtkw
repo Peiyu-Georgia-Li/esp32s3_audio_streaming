@@ -1,0 +1,106 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Wed Mar 27 07:52:01 2024
+[*]
+[dumpfile] "simulation/debayer_tb.fst"
+[dumpfile_mtime] "Wed Mar 27 07:48:33 2024"
+[dumpfile_size] 128536
+[savefile] "debayer_tb.gtkw"
+[timestart] 0
+[size] 1352 1104
+[pos] 688 38
+*-16.902920 213800 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] debayer_tb.
+[sst_width] 253
+[signals_width] 325
+[sst_expanded] 1
+[sst_vpaned_height] 355
+@28
+debayer_tb.pixel_clock
+debayer_tb.reset_n
+@200
+-
+-Image gen
+@22
+debayer_tb.image_gen.bayer_data_out[9:0]
+@28
+debayer_tb.image_gen.line_valid_out
+debayer_tb.image_gen.frame_valid_out
+@200
+-
+@24
+debayer_tb.image_gen.x_counter[31:0]
+debayer_tb.image_gen.y_counter[31:0]
+debayer_tb.image_gen.pixel_counter[31:0]
+@200
+-
+-Debayer
+@22
+debayer_tb.debayer.red_data_out[9:0]
+debayer_tb.debayer.green_data_out[9:0]
+debayer_tb.debayer.blue_data_out[9:0]
+@28
+debayer_tb.debayer.line_valid_out
+debayer_tb.debayer.frame_valid_out
+@200
+-
+@22
+debayer_tb.debayer.previous_pixel[9:0]
+debayer_tb.debayer.previous_previous_pixel[9:0]
+@200
+-
+@24
+debayer_tb.debayer.x_counter[10:0]
+debayer_tb.debayer.y_counter[10:0]
+@22
+debayer_tb.final_rgb_pixel[30:0]
+@200
+-
+-Crop
+@420
+debayer_tb.crop.X_CROP_START
+debayer_tb.crop.X_CROP_END
+debayer_tb.crop.Y_CROP_START
+debayer_tb.crop.Y_CROP_END
+@200
+-
+@22
+debayer_tb.crop.red_data_out[9:0]
+debayer_tb.crop.green_data_out[9:0]
+debayer_tb.crop.blue_data_out[9:0]
+@28
+debayer_tb.crop.line_valid_out
+debayer_tb.crop.frame_valid_out
+@200
+-
+@22
+debayer_tb.crop.x_counter[11:0]
+debayer_tb.crop.y_counter[11:0]
+[pattern_trace] 1
+[pattern_trace] 0
